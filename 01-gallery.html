@@ -10,17 +10,28 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css">
   </head>
   <body>
-    <div class="modal" id="modal">
+    <div class="gallery_items" id="gallery_items">
     <p><a href="index.html">Go back</a></p>
      <!-- Add gallery items to this list -->
         <ul class="gallery">
-      </ul>
-          <button class="btn">Close</button>    
+        <li class="gallery__item">
+         <a class="gallery__link" href="large-image.jpg">
+     <img
+      class="gallery__image"
+      src="small-image.jpg"
+      data-source="large-image.jpg"
+      alt="Image description"
+    />
+  </a>
+</li>
+      </ul>   
     </div>
     <script src="js/01-gallery.js" type="module"></script>
     <script type="module" src="your-script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js"></script>
   </body>
 </html>
+
+
 
 
